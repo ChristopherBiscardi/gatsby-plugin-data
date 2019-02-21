@@ -23,6 +23,7 @@ module.exports = {
         name: `assets`,
       },
     },
+    { resolve: `gatsby-plugin-data`, options: { schemas: [] } },
     {
       resolve: `gatsby-transformer-remark`,
       options: {

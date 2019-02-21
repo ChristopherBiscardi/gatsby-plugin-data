@@ -1,0 +1,11 @@
+type BlogPost {
+  title: String!
+  body: String
+  excerpt: String
+  date: String
+  tags: [String]
+}
+
+type Post {
+title: String
+}
